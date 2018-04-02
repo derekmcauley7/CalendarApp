@@ -12,6 +12,7 @@ export default Ember.Controller.extend({
         cancel(){
             console.log("from the controller");
             this.transitionToRoute('calendars');
+            return true;
         }
     
     }

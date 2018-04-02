@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('new', {
     path: '/calendars/new'
   });
+  this.route('calendars');
 });
 
 export default Router;
